@@ -1,0 +1,85 @@
+body {
+    padding:0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(202, 62, 62);
+}
+
+.nav-bar{
+    background-color: rgba(0,0,0,.5);
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+ul li {
+    padding: 0px 5px;
+    margin: 0px 5px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
+/* .logo {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 15px;
+    display: block;
+    background-color: hotpink ;
+} */
+ul li:hover{
+    background-color: rgba(21, 126, 91, 0.5);
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ /* Here is First Section */
+#about{
+    width: 100%;
+    height: 100%;
+}
+.sec-title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #fff;
+    /* background-color: maroon; */
+}
+
+    /*--------  Vrify Button Style  ------*/
+.verfiy-button {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.verfiy-button a {
+    text-decoration: none;
+    color: white;
+}
+.verfiy-button:hover{
+    background-color: rgba(4, 255, 171, 0.5);
+}
+
+
+
+
+
+
